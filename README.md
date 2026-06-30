@@ -26,13 +26,14 @@ An intelligent, lightweight, and ultra-fast Delphi/Object Pascal code formatter 
 ### 🛠️ Configuration
 The plugin includes a configuration file (`DelphiFormatter.ini`) where you can customize its behavior:
 * **IndentWidth:** Sets block indentation width (accepts values `2` to `4`, default: `2`).
-* `WordStyle`: Style of delphi keys/directives (`1` = always lowercase (e.g. begin, procedure) `2` = first letter uppercase (e.g. Begin, Procedure)).
+* **WordStyle:** Style of delphi keys/directives (`1` = always lowercase (e.g. begin, procedure) `2` = first letter uppercase (e.g. Begin, Procedure)).
 * **CleanCode:** Enables/disables empty line stripping (`1` = enabled, `0` = disabled).
 
 Example `DelphiFormatter.ini`:
 ```ini
 [Settings]
 IndentWidth=2
+WordStyle=1
 CleanCode=1
 ```
 
@@ -63,13 +64,14 @@ Inteligentna, lekka i niezwykle szybka wtyczka do programu Notepad++ służąca 
 ### 🛠️ Konfiguracja
 Wtyczka posiada plik konfiguracyjny (`DelphiFormatter.ini`), w którym możesz dostosować jej działanie:
 * **IndentWidth:** Szerokość podstawowego wcięcia bloków kodu (wartości od `2` do `4`, domyślnie: `2`).
-* `WordStyle`: Styl kluczy/dyrektyw delphi (`1` =  zawsze małe litery (np. begin, procedure)  `2` = pierwsza litera duża (np. Begin, Procedure)).
+* **WordStyle:** Styl kluczy/dyrektyw delphi (`1` =  zawsze małe litery (np. begin, procedure)  `2` = pierwsza litera duża (np. Begin, Procedure)).
 * **CleanCode:** Włącza lub wyłącza oczyszczanie kodu z nadmiarowych pustych linii (`1` = włączone, `0` = wyłączone).
 
 Przykład `DelphiFormatter.ini`:
 ```ini
 [Settings]
 IndentWidth=2
+WordStyle=1
 CleanCode=1
 ```
 
