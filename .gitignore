@@ -1,0 +1,10 @@
+# Pliki obiektowe generowane przez kompilator g++
+*.o
+
+# Pliki wykonywalne i ko┼äcowe biblioteki dll
+*.dll
+*.exe
+
+# Ewentualne pliki tymczasowe edytor├│w
+*~
+*.bak
